@@ -70,3 +70,29 @@ Bachelor’s degree in “Computers, complexes, systems and networks”
 `2005 - 2009`  
 __Novosibirsk College of electronic engineering and computer science__  
 “Computers, complexes, systems and networks”
+
+## Code examples
+
+[GitHub.com](https://github.com/daironsib)  
+[CodeWars.com](https://www.codewars.com/users/dairon)
+
+```javascript
+var find = function(string, array) {
+  for (i = 0; i <= array.length; i++) {
+    if(array[i] === string) return true;
+  }
+  return false;
+}
+```
+
+```javascript
+function lastTwo(arr) {
+  return arr.slice(-2).sort(
+    function compare(a, b) {
+      if (a < b) return -1;
+      if (a > b) return 1;
+      return 0;
+    }
+  );
+}
+```
