@@ -88,6 +88,12 @@ select {
   text-align: center;
 }
 
+.header .photo {
+  display: inline-block;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
 .footer {
   text-align: center;
   padding-top: 30px;
