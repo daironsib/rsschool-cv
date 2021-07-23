@@ -1,1 +1,1 @@
-# rsschool-cv
+https://daironsib.github.io/rsschool-cv/
