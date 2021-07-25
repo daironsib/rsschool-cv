@@ -108,6 +108,15 @@ select {
   width: 100px;
 }
 
+.skills ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.skills ul li {
+  list-style-type: none;
+}
+
 .profession {
   margin-bottom: 20px;
 }
