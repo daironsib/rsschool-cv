@@ -1,0 +1,161 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  font-family: 'PT Sans', sans-serif;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.header {
+  text-align: center;
+}
+
+.header .photo {
+  display: inline-block;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer .rs-link {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.footer .rs-link img {
+  width: 100px;
+}
+
+.skills ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.skills ul li {
+  list-style-type: none;
+}
+
+.profession {
+  margin-bottom: 20px;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.content .block {
+  margin-bottom: 20px;
+}
+
+.block-title {
+  border-bottom: 1px dashed gray;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.projects .item {
+  margin-bottom: 30px;
+}
+
+.projects .item .time,
+.projects .item .name,
+.projects .item .post {
+  font-weight: bold;
+}
+
+.projects .item .description,
+.projects .item .duties,
+.projects .item .tools {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.educations .item {
+  margin-bottom: 10px;
+}
+
+.educations .item .name {
+  font-weight: bold;
+}
